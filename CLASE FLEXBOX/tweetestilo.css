@@ -1,0 +1,90 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: royalblue;
+
+}
+
+main {
+    height: 100%;
+}
+
+.cardcentral {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardheader {
+    display: flex;
+}
+
+.card {
+    width: 600px;
+    height: 250px;
+    background-color: white;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+img {
+    width: 80px;
+    height: 60px;
+}
+
+figure {
+    margin: 10px 0 0 5px;
+}
+
+h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18 px;
+    margin: 20px 0 0 0;
+}
+h6 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    margin: 5px 0 0 0;
+    font-style: bold;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.textoscolumna {
+    display: flex;
+    flex-direction: column;
+}
+.texto {
+    margin: 0 20px 0 10px;
+}
+
+.cajafinal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 15px 20px 0 15px;
+}
+
+time {    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+
+}
+
+span {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+
+}

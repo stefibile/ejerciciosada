@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono', monospace;
+}
+
+body {
+    background-color:#eae7fb;
+}
+
+.card {
+    background-color: white;
+    width: 351px;
+    height: 297px;
+    padding: 70px 52px 52px 60px;
+    border-radius: 10px;
+    margin-top: 250px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+p {
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.button {
+    border: solid 1px lightgrey;
+    display: inline-block;
+    padding: 5px;
+    color: grey;
+    font-size: 10px;
+    font-weight: 400;
+    border-radius: 3px;
+}
+
+.button-fondo {
+    background-color: hotpink;
+    color: white;
+}
+.button-continue {
+    background-color: yellow;
+    color: black;
+    width: 100%;
+    margin-top: 25px;
+}
