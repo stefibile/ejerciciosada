@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <input type="submit" value="Crear usuario" />
+      </form>
+
+      <form>
+        <input type="password" name="password" />
+      </form>
+      <input type="text" name="apellido" value="Lovelace" />
+      <input type="text" name="apellido" placeholder="Ej: Lovelace" />
+      <form>
+        Acepta términos y condiciones:
+        <input type="radio" name="terminos" value="1" /> Si
+        <input type="radio" name="terminos" value="2" /> No
+      </form>
+      <form>
+        Acepta términos y condiciones:
+        <input type="radio" name="terminos" value="1" /> Si
+        <input type="radio" name="terminos" value="2" checked="checked" /> No
+      </form>
+      <form>
+        Estado Civil:
+        <input type="checkbox" name="superheroe" value="batman" checked="checked" /> Batman
+        <input type="checkbox" name="superheroe" value="superman" checked="checked" /> Superman
+        <input type="checkbox" name="superheroe" value="flash" checked="checked" /> Flash
+        <input type="checkbox" name="superheroe" value="mujer maravilla" checked="checked" /> Mujer Maravilla
+      </form>
+
+      <form>
+        <input type="hidden" name="id-de-producto" value="20" />
+      </form>
+      <form>
+        <input type="date" name="fechadenacimiento" />
+      </form>
+      <form>
+        <input type="email" name="email" />
+      </form>
+
+      <form>
+        <input type="url" name="sitiopersonal" />
+      </form>
+
+      <form>
+        <input type="search" name="busqueda" />
+      </form>
+
+      <form action="archivo.php" method="post" enctype="multipart/form-data">
+        <input type="file" name="archivo" />
+      </form>
+
+      <form>
+        <select name="opciones">
+          <option>Opción 1</option>
+          <option>Opción 2</option>
+        </select>
+      </form>
+
+      <form>
+        <select name="paises">
+          <option value="">Seleccione un país</option>
+          <option value="arg">Argentina</option>
+          <option value="bra">Brasil</option>
+          <option value="chl">Chile</option>
+          <option value="col" selected="selected">Colombia</option>
+          <option value="ven">Venezuela</option>
+        </select>
+      </form>
+
+      <form>
+        <select name="paises">
+          <option value="">Seleccione un país</option>
+          <option value="arg">Argentina</option>
+          <option value="bra">Brasil</option>
+          <option value="chl">Chile</option>
+          <option value="col" selected="selected">Colombia</option>
+          <option value="ven">Venezuela</option>
+        </select>
+      </form>
+
+      <form>
+        <label>Nombre:</label>
+        <input type="text" name="nombre" />
+        <label>Apellido:</label>
+        <input type="text" name="apellido" />
+      </form>
+
+      <form>
+        <fieldset>
+          <label for="idnombre">Nombre:</label>
+          <input type="text" name="nombre" id="idnombre" />
+          <label for="idapellido">Apellido:</label>
+          <input type="text" name="apellido" id="idapellido" />
+        </fieldset>
+      </form>
+
+      <form>
+        <input type="text" name="nombre" required />
+        <input type="text" name="nombre" required="required" />
+        <input type="submit" value="Registrar" />
+      </form>
+</body>
+</html>
