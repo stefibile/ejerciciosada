@@ -54,7 +54,7 @@ li{
 .presentation {
     display: flex;
     width: 100%;
-    height: 850px;
+    height: 650px;
 }
 
 h3 {
@@ -109,6 +109,60 @@ h5 {
     color: white;
     background-color:rgb(161, 87, 87);
     font-size: 18px;
-
 }
 
+.conocimientos {
+    width: 100%;
+    height: 1200px;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    background-color: #f6f7fb;
+    box-shadow: 0 0 29px 0 rgb(134 134 134 / 25%);
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 45px;
+    color: black;
+    font-weight: 900;
+    margin-bottom: 0.375em;
+    margin-top: 70px;
+    padding-top: 70px;
+}
+
+p {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 16px;
+        color: #2e2e31;
+        margin: 0;
+        display: flex;
+        text-align: center;
+        margin-right: 400px;
+        margin-left: 400px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+}
+.cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.card {
+    color: #2e2e31;
+    padding: 40px 20px;
+    background-color: #fff;
+    border: 1px solid #dddfe5;
+    border-radius: 8px;
+    width: 200px;
+    height: 180px;
+    margin: 10px;
+    padding: 30px;
+    transition: 0.2s;
+}
