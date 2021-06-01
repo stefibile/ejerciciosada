@@ -2,8 +2,8 @@
 
 html, body {
     margin: 0;
-    width: 100;
-    height: 100;
+    width: 100%;
+    height: 100%;
 }
 
 header {
@@ -64,7 +64,8 @@ li{
 .presentation {
     display: flex;
     width: 100%;
-    height: 750px;
+    /* height: 750px; */
+    height:100vh;
     justify-content: center;
     align-content: center;
     align-items: center;
@@ -85,6 +86,12 @@ h3 {
     width: 50%;
     padding: 10% 0 0 10%;
     text-align: left;
+}
+
+.foto {
+    width: 50%;
+    padding: 10% 10% 0 0;
+    object-fit: cover;
 }
 
 h1 {
@@ -109,14 +116,16 @@ h5 {
     font-size: 16px;
     color: white;
     background-color: rgb(71, 62, 70);
-    padding: 20px 5px;
-    border-radius: 20px;
+    padding: 5px 2px;
+    border-radius: 40px;
     width: 200px;
     height: 50px;
     display: flex;
     align-content: center;
     align-items: center;
     justify-content: center;
+    text-decoration: none;
+    cursor: pointer;
 }
 .buttonpresentation:hover {
     color: white;
@@ -126,7 +135,7 @@ h5 {
 
 .conocimientos {
     width: 100%;
-    height: 1000px;
+    /* height: 1000px; */
     display: flex;
     justify-content:flex-start;
     align-items: center;
@@ -137,7 +146,7 @@ h5 {
     box-shadow: 0 0 29px 0 rgb(134 134 134 / 25%);
 }
 
-h2{
+h2 {
     font-family: 'Montserrat', sans-serif;
     font-size: 45px;
     color: black;
@@ -148,16 +157,16 @@ h2{
 }
 
 p {
-        font-family: 'Montserrat', sans-serif;
-        font-size: 16px;
-        color: #2e2e31;
-        margin: 0;
-        display: flex;
-        text-align: center;
-        margin-right: 400px;
-        margin-left: 400px;
-        margin-top: 20px;
-        margin-bottom: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: #2e2e31;
+    margin: 0;
+    display: flex;
+    text-align: center;
+    margin-right: 400px;
+    margin-left: 400px;
+    margin-top: 20px;
+    margin-bottom: 40px;
 }
 .cards {
     display: flex;
@@ -166,6 +175,7 @@ p {
     align-content: center;
     justify-content: center;
     align-items: center;
+    padding-bottom: 80px;
 }
 .card {
     display: flex;
@@ -228,9 +238,8 @@ span {
 }
 .hola {
     width: 100%;
-    height: 600px;
-    padding: 0;
-    margin: 0;
+    padding-top: 95px;
+    padding-bottom: 95px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -263,6 +272,7 @@ span {
     margin-bottom: 0.375em;
     margin-top: 10px;
     padding-top: 20px;
+    text-align: center;
 }
 
 .holadiv {
@@ -272,12 +282,14 @@ span {
 
 .proyectos{
     width: 100%;
-    height:700px;
+    /* height:1200px; */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     box-shadow: 29px 0 29px 0 rgb(134 134 134 / 25%);
+    padding-top: 70px;
+    padding-bottom: 100px
     
 }
 
@@ -324,10 +336,13 @@ span {
 
 .contacto {
     width: 100%;
-    height: 600px;
+    /* height: 600px; */
     display: flex;
     flex-direction: row;
     justify-content: center;
+    padding-bottom: 120px;
+    padding-top: 200px;
+    background-color: #f6f7fb;
 }
 
 .proimg {
@@ -343,6 +358,7 @@ span {
     font-size: 16px;
     color: #616161;
     font-weight: 400;
+    text-align: center;
 }
 
 .estilopag {
@@ -354,6 +370,54 @@ span {
     color: #000000;
     font-weight: 500;
     margin-top: 5px;
+}
 
+.cardcontact {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    width: 80%;
+    background-color: white;
+    border-radius: 15px;
+    border: 1px solid #e0e0e0;
+    padding-top: 80px;
+    padding-bottom: 60px;
+}
+
+
+.contact {
+    width: 50%;
+    padding-left: 50px;
+}
+
+.formulario {
+    width: 50%;
+}
+
+.typecontact {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: #616161;
+    font-weight: 400;
+    text-decoration: none;
+    align-items: center;
+}
+
+li {
+    padding: 10px 5px 10px 5px;
+    margin: 5px 5px 5px 5px; 
+}
+
+.social {
+    font-size: 20px;
+    color: #a25757;
 }
     
+.parrafocontacto {
+    font-size: 16px;
+    color: #2e2e31;
+    margin-top: 38px;
+    margin-right: 233px;
+    margin-left: 0;
+    text-align: left;
+}
