@@ -172,24 +172,27 @@
             </div>
             <div class="formulario">
                   <h1>Escribime</h1>
+                  <div class="formulario1">
                   <div>
-                      <form action="">
-                      <label for="nombre">Nombre</label>
+                      <form action="POST">
+                      <label for="nombre">Nombre *</label> <br>
                       <input type="text" name="nombre" placeholder="p. ej.: Juan">
                   </div>
                   <div>
-                    <label for="apellido">Apellido</label>
+                    <label for="apellido">Apellido *</label> <br>
                     <input type="text" name="apellido" placeholder="p. ej.: Lopez">
                 </div>   
-                <div>
-                    <label for="email">Email</label>
+                </div>
+                <div class="mail">
+                    <label for="email">Email *</label> <br>
                     <input type="text" name="email" placeholder="p. ej.: lopez@gmail.com">
                  </div>           
-                 <div>
-                    <label for="mensaje">Mensaje</label>
+                 <div class="mensaje">
+                    <label for="mensaje">Mensaje *</label> <br>
                     <textarea name="textarea" id="textarea" placeholder="Dejame tu mensaje aquí" cols="30" rows="10">Dejame tu mensaje aquí</textarea>
                  </div>   
-                 <button class="button">Enviar</button>
+                 <label for="submit"></label>
+                 <input class="submitbutton" type="submit" id="submit" name="submit" value="Enviar">
                 </form>               
             </div>
         </div>
