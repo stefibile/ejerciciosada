@@ -1,6 +1,5 @@
-
-
-html, body {
+html,
+body {
     margin: 0;
     width: 100%;
     height: 100%;
@@ -18,7 +17,7 @@ header {
 
 }
 
-.navsup{
+.navsup {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
@@ -27,19 +26,19 @@ header {
 }
 
 .contactstyle {
-margin-left: 15px;
-margin-right: 15px;
-text-decoration: none;
-font-family: 'Montserrat', sans-serif;
-font-size: 18px;
-font-weight: 600;
-color: #312e2f;
+    margin-left: 15px;
+    margin-right: 15px;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #312e2f;
 
 }
 
 .contactstyle:hover {
-color: #a25757;
-font-size: 20px;
+    color: #a25757;
+    font-size: 20px;
 }
 
 .contactbutton {
@@ -50,14 +49,14 @@ font-size: 20px;
 }
 
 .fotoperfil {
-    margin-top:70px;
-    margin-right:110px;
+    margin-top: 70px;
+    margin-right: 110px;
     width: 500px;
     height: 500px;
     padding: 0;
 }
 
-li{
+li {
     list-style: none;
 }
 
@@ -65,7 +64,7 @@ li{
     display: flex;
     width: 100%;
     /* height: 750px; */
-    height:100vh;
+    height: 100vh;
     justify-content: center;
     align-content: center;
     align-items: center;
@@ -127,9 +126,10 @@ h5 {
     text-decoration: none;
     cursor: pointer;
 }
+
 .buttonpresentation:hover {
     color: white;
-    background-color:rgb(161, 87, 87);
+    background-color: rgb(161, 87, 87);
     font-size: 18px;
 }
 
@@ -137,7 +137,7 @@ h5 {
     width: 100%;
     /* height: 1000px; */
     display: flex;
-    justify-content:flex-start;
+    justify-content: flex-start;
     align-items: center;
     flex-direction: column;
     margin: 0;
@@ -168,6 +168,7 @@ p {
     margin-top: 20px;
     margin-bottom: 40px;
 }
+
 .cards {
     display: flex;
     flex-direction: row;
@@ -177,6 +178,7 @@ p {
     align-items: center;
     padding-bottom: 80px;
 }
+
 .card {
     display: flex;
     flex-direction: column;
@@ -223,12 +225,14 @@ span {
     margin: 0;
     padding: 0;
 }
+
 .cssimg {
     width: 80px;
     height: 80px;
     margin: 0;
     padding: 0;
 }
+
 .cloimg {
     width: 100px;
     height: 100px;
@@ -236,6 +240,7 @@ span {
     padding: 0;
 
 }
+
 .hola {
     width: 100%;
     padding-top: 95px;
@@ -249,6 +254,7 @@ span {
     align-items: center;
     box-shadow: 29px 0 29px 0 rgb(134 134 134 / 25%);
 }
+
 .phola {
     font-family: 'Montserrat', sans-serif;
     color: seashell;
@@ -280,7 +286,7 @@ span {
     padding: 0;
 }
 
-.proyectos{
+.proyectos {
     width: 100%;
     /* height:1200px; */
     display: flex;
@@ -290,7 +296,6 @@ span {
     box-shadow: 29px 0 29px 0 rgb(134 134 134 / 25%);
     padding-top: 70px;
     padding-bottom: 100px
-    
 }
 
 .misproyectos {
@@ -300,14 +305,16 @@ span {
     font-size: 16px;
     font-weight: 400;
 }
+
 .proyect {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        align-content: center;
-        justify-content: center;
-        align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
 }
+
 .cardproyect {
     display: flex;
     flex-wrap: nowrap;
@@ -327,6 +334,7 @@ span {
     align-content: center;
     align-items: center;
 }
+
 .cardproyect:hover {
     color: rgb(161, 87, 87);
     font-size: 20px;
@@ -351,6 +359,7 @@ span {
     padding: 0;
     margin: 0;
 }
+
 .parrafoproy {
     display: flex;
     justify-content: center;
@@ -405,14 +414,14 @@ span {
 
 li {
     padding: 10px 5px 10px 5px;
-    margin: 5px 5px 5px 5px; 
+    margin: 5px 5px 5px 5px;
 }
 
 .social {
     font-size: 20px;
     color: #a25757;
 }
-    
+
 .parrafocontacto {
     font-size: 16px;
     color: #2e2e31;
@@ -448,7 +457,8 @@ label {
     margin-top: 5px;
 }
 
-input, textarea {
+input,
+textarea {
     border-radius: 20px;
     background-color: #f6f7fb;
     border: 1px solid #f6f7fb;
@@ -466,6 +476,7 @@ input, textarea {
     flex-direction: column;
     padding-top: 15px;
 }
+
 .submitbutton {
     background-color: #a25757;
     color: white;
